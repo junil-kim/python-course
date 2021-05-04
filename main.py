@@ -1,5 +1,4 @@
-days =["Mon","Tue","Wed","Thur","Fri"]
+def say_hello(who):
+  print("hello", who)
 
-print(days)
-days.append("Sat")
-print(days)
+say_hello("jikim")
